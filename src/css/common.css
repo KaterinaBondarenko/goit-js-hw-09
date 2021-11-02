@@ -16,3 +16,21 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.container-switcher{
+  position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+button{
+transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 16px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+border: 1px solid gray;
+}
