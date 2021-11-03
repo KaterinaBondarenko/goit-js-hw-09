@@ -26,11 +26,41 @@ img {
 .btn-switcher{
 transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+input{
+  font-size: 16px;
+  padding: 16px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+button{
     font-size: 16px;
     padding: 16px 30px;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    border: 1px solid gray;
+}
 
-border: 1px solid gray;
+.timer {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+.value {
+font-size: 40px;
+}
+.label {
+  font-weight: 500;
 }
